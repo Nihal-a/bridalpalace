@@ -1,8 +1,26 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  font-family: 'Cormorant Garamond', serif !important;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+.navbar{
+  width: 100%;
+  background-color: #fff;
+}
+nav ul{
+  list-style: none;
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+nav ul li a{
+  color: #707070;
+  text-decoration: none;
 }
