@@ -6,6 +6,7 @@ body{
   box-sizing: border-box;
 }
 
+/* navbar starts*/
 .navbar{
   width: 100%;
   background-color: #fff;
@@ -47,3 +48,35 @@ nav ul li a{
   align-items: center;
   border-radius: 50%;
 }
+.menu-icon{
+  display: none;
+}
+/* navbar ends*/
+
+/* media query for navbar starts*/
+@media  only screen and (max-width: 800px){
+  .list-area nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    transition: max-hieght .5s;
+  }
+  .list-area nav ul li{
+    display: block;
+    margin: 20px 0 20px 30px;
+  }
+  .profile-icon{
+    display: none;
+  }
+  nav ul li{
+    margin-right: 20px;
+  }
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+  }
+}
+/* media query for navbar ends*/
