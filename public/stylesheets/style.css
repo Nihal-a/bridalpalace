@@ -1,3 +1,4 @@
+/* #E20447 */
 body{
   font-family: 'Cormorant Garamond', serif !important;
   background-color: #f8f8f8;
@@ -51,6 +52,9 @@ nav ul li a{
 .menu-icon{
   display: none;
 }
+.account-mobile{
+  display: none;
+}
 /* navbar ends*/
 
 /* media query for navbar starts*/
@@ -66,7 +70,7 @@ nav ul li a{
   }
   .list-area nav ul li{
     display: block;
-    margin: 20px 0 20px 30px;
+    margin: 20px 0 20px 0;
   }
   .profile-icon{
     display: none;
@@ -77,6 +81,14 @@ nav ul li a{
   .menu-icon{
     display: block;
     cursor: pointer;
+  }
+  .profile-icon-mobile{
+    margin-right: 5px;
+    width: 30px;
+  }
+  .account-mobile{
+    color: #E20447;
+    font-weight: bold;
   }
 }
 /* media query for navbar ends*/
