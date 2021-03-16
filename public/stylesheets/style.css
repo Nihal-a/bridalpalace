@@ -24,3 +24,26 @@ nav ul li a{
   color: #707070;
   text-decoration: none;
 }
+.cart-icon{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+.cart-badge{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  font-size: 10px;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  background-color: #FF0000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
