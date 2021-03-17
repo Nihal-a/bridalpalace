@@ -1,6 +1,6 @@
 /* #E20447 */
-body{
-  font-family: 'Cormorant Garamond', serif !important;
+body {
+  font-family: "Cormorant Garamond", serif !important;
   background-color: #f8f8f8;
   margin: 0;
   padding: 0;
@@ -8,26 +8,26 @@ body{
 }
 
 /* navbar starts*/
-.navbar{
+.navbar {
   width: 100%;
   background-color: #fff;
   z-index: 999;
 }
-nav ul{
+nav ul {
   list-style: none;
   display: inline-block;
 }
-nav ul li{
+nav ul li {
   display: inline-block;
   margin-right: 30px;
   margin-left: 15px;
   margin-top: 20px;
 }
-nav ul li a{
+nav ul li a {
   color: #707070;
   text-decoration: none;
 }
-.cart-icon{
+.cart-icon {
   position: relative;
   display: flex;
   align-items: center;
@@ -35,117 +35,117 @@ nav ul li a{
   background-color: transparent;
   border: none;
 }
-.cart-badge{
-  font-family: 'Montserrat', sans-serif;
+.cart-badge {
+  font-family: "Montserrat", sans-serif;
   position: absolute;
   font-size: 10px;
   top: -8px;
   right: -8px;
   width: 20px;
   height: 20px;
-  background-color: #FF0000;
+  background-color: #ff0000;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
 }
-.menu-icon{
+.menu-icon {
   display: none;
 }
-.account-mobile{
+.account-mobile {
   display: none;
 }
 /* navbar ends*/
 
 /* media query for navbar starts*/
-@media  only screen and (max-width: 800px){
-  .list-area nav ul{
+@media only screen and (max-width: 800px) {
+  .list-area nav ul {
     position: absolute;
     top: 70px;
     left: 0;
     background-color: #fff;
     width: 100%;
     overflow: hidden;
-    transition: max-hieght .5s;
+    transition: max-hieght 0.5s;
   }
-  .list-area nav ul li{
+  .list-area nav ul li {
     display: block;
     margin: 20px 0 20px 0;
   }
-  .profile-icon{
+  .profile-icon {
     display: none;
   }
-  nav ul li{
+  nav ul li {
     margin-right: 20px;
   }
-  .menu-icon{
+  .menu-icon {
     display: block;
     cursor: pointer;
   }
-  .profile-icon-mobile{
+  .profile-icon-mobile {
     margin-right: 5px;
     width: 30px;
   }
-  .account-mobile{
-    color: #E20447;
+  .account-mobile {
+    color: #e20447;
     font-weight: 700;
   }
 }
 /* media query for navbar ends*/
 
 /* main page starts */
-.bp-text{
+.bp-text {
   font-size: 20rem;
   line-height: 20rem;
-  color: #DEDADA;
-  opacity: 30%;
+  color: #dedada;
+  opacity: 40%;
   font-weight: 700;
   margin-left: -50px;
   z-index: 1;
 }
-.hero-bride{
+.hero-bride {
   z-index: 2;
   position: absolute;
   right: 0;
   width: 38rem;
   bottom: 0;
 }
-.hero-text{
+.hero-text {
   z-index: 3;
   margin: 0;
-  position: absolute;
+  position: fixed;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.hero-sub-text{
+.hero-sub-text {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 3px;
 }
-.hero-main-text{
+.hero-main-text {
   font-size: 6.5rem;
   font-weight: 700;
-  color: #E20447;
+  color: #e20447;
   text-shadow: 4px 1px 2px #dd698c;
 }
-.arrow-right{
+.arrow-right {
   width: 20px;
 }
-.arrow-right-span{
+.arrow-right-span {
   margin-left: 1rem;
 }
-.hero-shop-cta{
+.hero-shop-cta {
   text-decoration: none;
   padding: 11px 48px 11px 48px;
-  background-color: #E20447;
+  background-color: #e20447;
   color: #fff;
   letter-spacing: 1px;
   font-size: 24px;
   border-radius: 5rem;
 }
-.hero-shop-cta:hover{
+.hero-shop-cta:hover {
   color: #fff;
   letter-spacing: 2.5px;
   transition-duration: 1s;
@@ -153,3 +153,23 @@ nav ul li a{
 }
 
 /* main page ends */
+
+/* media query for hero starts*/
+@media (min-width: 992px) and (max-width: 1230px) {
+  .bp-text {
+    font-size: 13rem;
+    line-height: 20rem;
+    margin-left: -30px;
+    opacity: 40%;
+  }
+  .hero-bride {
+    width: 35rem;
+  }
+  .hero-text {
+    top: 45%;
+  }
+  .hero-main-text {
+    font-size: 5rem;
+  }
+}
+/* media query for hero ends*/
