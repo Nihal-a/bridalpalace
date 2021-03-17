@@ -89,7 +89,7 @@ nav ul li a{
   }
   .account-mobile{
     color: #E20447;
-    font-weight: bold;
+    font-weight: 700;
   }
 }
 /* media query for navbar ends*/
@@ -99,17 +99,57 @@ nav ul li a{
   font-size: 20rem;
   line-height: 20rem;
   color: #DEDADA;
-  opacity: 50%;
-  font-weight: bold;
+  opacity: 30%;
+  font-weight: 700;
   margin-left: -50px;
-  z-index: 11;
+  z-index: 1;
 }
 .hero-bride{
   z-index: 2;
-  position: fixed;
+  position: absolute;
   right: 0;
   width: 38rem;
   bottom: 0;
+}
+.hero-text{
+  z-index: 3;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.hero-sub-text{
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.hero-main-text{
+  font-size: 6.5rem;
+  font-weight: 700;
+  color: #E20447;
+  text-shadow: 4px 1px 2px #dd698c;
+}
+.arrow-right{
+  width: 20px;
+}
+.arrow-right-span{
+  margin-left: 1rem;
+}
+.hero-shop-cta{
+  text-decoration: none;
+  padding: 11px 48px 11px 48px;
+  background-color: #E20447;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 24px;
+  border-radius: 5rem;
+}
+.hero-shop-cta:hover{
+  color: #fff;
+  letter-spacing: 2.5px;
+  transition-duration: 1s;
+  background-color: #f7004a;
 }
 
 /* main page ends */
