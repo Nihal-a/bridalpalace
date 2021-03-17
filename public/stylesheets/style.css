@@ -11,6 +11,7 @@ body{
 .navbar{
   width: 100%;
   background-color: #fff;
+  z-index: 999;
 }
 nav ul{
   list-style: none;
@@ -92,3 +93,23 @@ nav ul li a{
   }
 }
 /* media query for navbar ends*/
+
+/* main page starts */
+.bp-text{
+  font-size: 20rem;
+  line-height: 20rem;
+  color: #DEDADA;
+  opacity: 50%;
+  font-weight: bold;
+  margin-left: -50px;
+  z-index: 11;
+}
+.hero-bride{
+  z-index: 2;
+  position: fixed;
+  right: 0;
+  width: 38rem;
+  bottom: 0;
+}
+
+/* main page ends */
