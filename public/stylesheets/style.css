@@ -188,13 +188,92 @@ nav ul li a {
     left: 2rem;
   }
   .hero-shop-cta {
-    text-decoration: none;
     padding: 9px 40px 9px 40px;
-    background-color: #e20447;
-    color: #fff;
-    letter-spacing: 1px;
     font-size: 18px;
-    border-radius: 5rem;
   }
+}
+@media only screen and (max-width: 800px){
+  .bp-text{
+    font-size: 10rem;
+    line-height: 10rem;
+    margin-left: 0;
+  }
+  .hero-bride {
+    width: 25rem;
+  }
+  .hero-sub-text {
+    font-size: 15px;
+  }
+  .hero-main-text {
+    font-size: 4.5rem;
+  }
+  .hero-text{
+    top: 40%;
+  }
+  .hero-shop-cta {
+    padding: 9px 40px 9px 40px;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .hero-text{
+    left: 2rem;
+  }
+  .hero-sub-text {
+    font-size: 15px;
+  }
+  .hero-main-text {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 700px){
+  .hero-bride{
+    width: 20rem;
+  }
+  .hero-sub-text {
+    font-size: 15px;
+  }
+  .hero-main-text {
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 590px){
+  .bp-text{
+    font-size: 7rem;
+  }
+  .hero-text{
+    top: 35%;
+  }
+}
+@media only screen and (max-width: 413px){
+    .bp-text{
+      font-size: 25.5vw;
+      line-height: 5rem;
+      margin-top: 3rem;
+    }
+    .hero-bride{
+      width: 21rem;
+    }
+    .hero-sub-text {
+      font-size: 15px;
+    }
+    .hero-main-text {
+      font-size: 3rem;
+    }
+    .hero-shop-cta{
+      font-size: 14px;
+      padding: 9px 20px 9px 20px;
+    }
+    .arrow-right{
+      width: 14px;
+    }
+    .arrow-right-span{
+      margin-left: .5rem;
+    }
+    .hero-text{
+      top: 33%;
+      left: ;
+    }
+    
 }
 /* media query for hero ends*/
